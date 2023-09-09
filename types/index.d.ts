@@ -23,7 +23,6 @@ export interface StyleState {
 
 export interface StyleStore {
   app: (pseudoClasses?: Accessor<StylePseudoClass[]>) => string;
-  input: (pseudoClasses?: Accessor<StylePseudoClass[]>) => string;
 }
 
 export type InputProps = JSXAttributes<HTMLInputElement> & {
