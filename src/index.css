@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.fira-thin-italic {
+    font-family: "Fira Sans", monospace;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.fira-thin {
+    font-family: "Fira Sans", monospace;
+    font-weight: 200
+}
+
+.fira-italic {
+    font-family: "Fira Sans", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fira {
+    font-family: "Fira Sans", monospace;
+    font-weight: 400
+}
+
+.fira-bold-italic {
+    font-family: "Fira Sans", monospace;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.fira-bold {
+    font-family: "Fira Sans", monospace;
+    font-weight: 600
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow:0 0 0 50px #030712 inset !important ; /* Change the color to your own background color */
+  -webkit-text-fill-color: #b4bece;
+  background-color: #030712;
+  font-family: "Fira Sans", monospace;
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px #030712 inset !important ;/*your box-shadow*/
+  -webkit-text-fill-color: #b4bece;
+  background-color: #030712;
+  font-family: "Fira Sans", monospace;
+}
